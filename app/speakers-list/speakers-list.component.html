@@ -1,0 +1,12 @@
+<div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">Speakers</div>
+
+    <!-- List group -->
+    <div class="list-group" *ngFor='#speaker of speakers'>
+        <a class="list-group-item">
+            <h4 class="list-group-item-heading">{{speaker.firstName}}</h4>
+            <p class="list-group-item-text">{{speaker.lastName}}</p>
+        </a>
+    </div>  
+</div>
